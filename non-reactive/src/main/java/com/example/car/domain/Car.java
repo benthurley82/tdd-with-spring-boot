@@ -15,6 +15,10 @@ public class Car {
 
 	private String type;
 
+	public Car() {
+		// JPA requires a default constructor
+	}
+	
 	public Car(String name, String type) {
 		this.name = name;
 		this.type = type;
